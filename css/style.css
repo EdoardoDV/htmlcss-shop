@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+}
+
+#riga {
+  position: relative;
+  display: inline-block;
+  z-index: 0
+}
+#riga-due {
+  margin-top: 50px;
+  position: relative;
+  display: inline-block;
+  z-index: 0
+}
+
+.elemento {
+  position:relative;
+  z-index: 1;
+}
+
+.sconto {
+  position: relative;
+  top: -356px;
+  right: 46px;
+  z-index: 2;
+}
+.uno {
+  background: green;
+  right: 39px;
+}
+.due {
+  background: red;
+  left: -31px;
+}
+
+.like img {
+  position:relative;
+  height: 20px;
+  width: 20px;
+  right: 193px;
+  bottom: 10px;
+}
+
+.overlay {
+  position: relative;
+  background-color: rgba(238, 238, 238, 1);
+  z-index: 1;
+  border-left: 40px solid #eeeeee;
+  border-bottom: 16px solid #eeeeee;
+  top: -20px;
+  right: 227px;
+}
+.elemento:hover > .overlay{
+  opacity: 0;
+}
